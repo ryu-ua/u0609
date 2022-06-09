@@ -1,21 +1,28 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Hensu : MonoBehaviour
 {
+    int a = 10;
+    
     // Start is called before the first frame update
-    void Start()
+    public void Proc()
     {
-        int a=20;
-        float fw=3.14f;
-        string str="Ç±ÇÒÇ…ÇøÇÕ";
-        bool bl=true;
+        
+        float fw = 3.14f;
+        string str = "„Åì„Çì„Å´„Å°„ÅØ";
+        bool bl = true;
 
-        Debug.Log(a);
+        Debug.Log(a + a);
         Debug.Log(fw);
         Debug.Log(str);
         Debug.Log(bl);
+    }
+
+    public void Proc2()
+    {
+        Debug.Log(a);
     }
 
     // Update is called once per frame
